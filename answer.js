@@ -53,5 +53,18 @@
 
 const numberOfFilms = prompt('сколько фильмов вы уже посмотрели?', '');
 console.log(numberOfFilms);
-document.write(numberOfFilms)
+document.write(numberOfFilms);
 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {
+
+    },
+    actors: {
+
+    },
+    genres: [],
+    privat: false
+};
+
+git branch -M main
